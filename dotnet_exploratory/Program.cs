@@ -11,7 +11,7 @@ void Main()
     String input = Console.ReadLine() ?? string.Empty;
     Int32 upper = Convert.ToInt32(input);
     Console.WriteLine("\n\n");
-    for (int i = 0; i <= upper; i++)
+    for (int i = 1; i <= upper; i++)
     {
         if (i % 3 == 0 && i % 5 == 0)
         {
